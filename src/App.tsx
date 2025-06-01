@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 export const App: React.FC = () => {
   return (
     <BrowserRouter>
-      <div className='flex flex-col min-h-screen'>
+      <div className='layout'>
         <Header />
         <RouterView />
         <Footer />

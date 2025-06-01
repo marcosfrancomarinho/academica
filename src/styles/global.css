@@ -1,3 +1,7 @@
 @import 'tailwindcss';
 
-
+@layer components {
+  .layout {
+    @apply flex flex-col min-h-screen;
+  }
+}
