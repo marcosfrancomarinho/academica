@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+
 export const Footer: React.FC = () => {
   return (
     <footer className='flex flex-col items-center w-full px-2 py-4 text-white bg-cyan-950'>
